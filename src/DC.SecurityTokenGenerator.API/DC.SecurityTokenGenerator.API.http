@@ -1,0 +1,6 @@
+@DC.SecurityTokenGenerator.API_HostAddress = http://localhost:5195
+
+GET {{DC.SecurityTokenGenerator.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

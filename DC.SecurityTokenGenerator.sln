@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{B8846244-EE1C-4DD7-8805-14F5800EC3CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{3E7BC849-B92B-4F0A-AD69-94FD68AA3BC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DC.SecurityTokenGenerator.API", "src\DC.SecurityTokenGenerator.API\DC.SecurityTokenGenerator.API.csproj", "{A04B3D1B-4D2C-4E54-BE90-13AB0C125974}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DC.SecurityTokenGenerator.Domain", "src\DC.SecurityTokenGenerator.Domain\DC.SecurityTokenGenerator.Domain.csproj", "{EC031A3B-D493-42FD-912B-A9331901B74A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{65C1F073-603E-4AEC-B02E-119DF601C6B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DC.SecurityTokenGenerator.Infrastructure", "src\DC.SecurityTokenGenerator.Infrastructure\DC.SecurityTokenGenerator.Infrastructure.csproj", "{6E876C1E-1D49-496F-B797-C509251F628C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A04B3D1B-4D2C-4E54-BE90-13AB0C125974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04B3D1B-4D2C-4E54-BE90-13AB0C125974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04B3D1B-4D2C-4E54-BE90-13AB0C125974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04B3D1B-4D2C-4E54-BE90-13AB0C125974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC031A3B-D493-42FD-912B-A9331901B74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC031A3B-D493-42FD-912B-A9331901B74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC031A3B-D493-42FD-912B-A9331901B74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC031A3B-D493-42FD-912B-A9331901B74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E876C1E-1D49-496F-B797-C509251F628C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E876C1E-1D49-496F-B797-C509251F628C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E876C1E-1D49-496F-B797-C509251F628C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E876C1E-1D49-496F-B797-C509251F628C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A04B3D1B-4D2C-4E54-BE90-13AB0C125974} = {B8846244-EE1C-4DD7-8805-14F5800EC3CC}
+		{EC031A3B-D493-42FD-912B-A9331901B74A} = {3E7BC849-B92B-4F0A-AD69-94FD68AA3BC2}
+		{6E876C1E-1D49-496F-B797-C509251F628C} = {65C1F073-603E-4AEC-B02E-119DF601C6B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11B95D40-4B29-4E7F-8930-2643394A2AC7}
+	EndGlobalSection
+EndGlobal
